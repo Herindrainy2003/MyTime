@@ -1,0 +1,28 @@
+ *,::after,::before{
+        margin : 0;
+        padding : 0;
+        box-sizing: border-box;
+    }
+
+.nav{
+    
+    font-size: 20px;
+    justify-content: center;
+    border: 1px solid #ccc;;
+    padding: 20px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
